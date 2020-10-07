@@ -7,8 +7,6 @@ networks:
 services:
   nginx:
     image: nginx:latest
-    #build:
-        #context: .
     volumes:
       - ./:/usr/share/nginx/html/
     ports:
